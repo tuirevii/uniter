@@ -40,7 +40,7 @@ Tiedostoista löytyy myös harjoitustyön raportti, jonka sisällysluettelo on k
   - 6.3.	Täsmäprototyypin näytöt ja vuorovaikutteinen prototyyppi
     - 6.3.1.	Mobiilinäkymät
     - 6.3.2.	Työpöytänäkymät
-  - 6.4.	SUUNNITTELUPROSESSIN VAIHEET JA SAAVUTETTAVUUDEN HUOMIOONOTTAMINEN
+  - 6.4.	Suunnitteluprosessin vaihteet ja saavutettavuuden huomioon ottaminen
 7.	POHDINTA JA YHTEENVETO
   - 7.1.	Nykytilanne
   - 7.2.	Seuraavat vaiheet: arviointisuunnitelma
