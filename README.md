@@ -18,21 +18,24 @@ The service is designed to work in a web browser, whether on a smartphone with a
 ## My Role
 - Project management
 - Together with the team:
-  - Creating wireframes and the prototype with the team
-  - Recruiting interviewees
+  - Designing wireframes and the prototypes with the team
+  - Recruiting participants for interviews
   - Planning and conducting user research
   - Analysing the data
   - Writing the final report
+  - Designing the poster for a virtual fair
   - Active participation in each phase
 
 ## User Research
+- Semi-structured thematic interviews
+- N=4 (+ 2 pilot interviews), aged 30-41
+
 The goal of the user research was to explore students' physical activity habits, challenges related to getting started with exercise, and motivation factors through semi-structured thematic interviews.
 
 The interviews were recorded and transcribed, and we identified emerging themes from the responses to support the design process.
 
 ![Themes related to physical activity and their subthemes](https://github.com/user-attachments/assets/678e9d99-3a3b-4e17-9ce4-876be8bf1413)
 _Themes related to physical activity and their subthemes_
-
 
 ![Themes related to the use of the web service and their subthemes](https://github.com/user-attachments/assets/268b6219-c539-4c41-b008-dd17c98de5b7)
 _Themes related to the use of the web service and their subthemes_
@@ -42,6 +45,11 @@ _Themes related to the use of the web service and their subthemes_
 ![kuva](https://github.com/user-attachments/assets/dd6a15fa-967e-4cb6-a7e0-eefd1dc806a7)
 
 ![kuva](https://github.com/user-attachments/assets/14f5b457-8280-4c99-abec-f967932a3734)
+
+## Usage Environment
+The usage environment consists of multiple factors. The service can be used on both mobile devices and computers, meaning the physical operating environment may vary significantly between different users and individual use cases. Users are required to authenticate themselves using their university credentials via the Haka authentication system, establishing an organisational connection to the university's systems as part of the usage environment.
+
+From a technical perspective, the service also requires a functional internet connection, as it facilitates interaction with other users. Other users are an essential part of the operating environment, as the successful use of the service depends on having a sufficient number of users with created profiles.
 
 ## Conceptual Model & Information Architecture
 ![Conceptual model and information architecture](https://github.com/user-attachments/assets/8480de4f-e0d1-4440-bbe2-fd80c3a8e072)
@@ -57,18 +65,42 @@ _Themes related to the use of the web service and their subthemes_
 
 ## Wireframes & Prototype
 
-### Prototyypit (designed with Figma)
+### Some of the Wireframes I Designed
+
+#### Mobile
+![kuva](https://github.com/user-attachments/assets/15043e84-9c5c-4e91-a4ba-b0db0bdb07ce)
+
+#### Desktop
+![kuva](https://github.com/user-attachments/assets/b9e34b9f-c801-43a4-89a1-ee29c9db6e7d)
+![kuva](https://github.com/user-attachments/assets/98c56dbf-9c73-4808-b879-e2ba8de9f57e)
+
+![kuva](https://github.com/user-attachments/assets/10fa4a4e-bb0a-42be-8636-87e54eb93180)
+![kuva](https://github.com/user-attachments/assets/bf8dcb7e-3510-4a10-9f93-9609c7e89e9a)
+![kuva](https://github.com/user-attachments/assets/c8b6eb65-9deb-4bbb-acf9-c745fa8b6c37)
+![kuva](https://github.com/user-attachments/assets/c026673b-8daa-4384-8eef-97cc37a00876)
+![kuva](https://github.com/user-attachments/assets/81944f06-b21a-4e7e-ab83-94aed27707a2)
+![kuva](https://github.com/user-attachments/assets/aeee9284-8e5c-43f8-8e64-cc4e8e9ba763)
+![kuva](https://github.com/user-attachments/assets/8e9b8de4-769b-4dd9-b68c-e5168232dc5f)
+![kuva](https://github.com/user-attachments/assets/533bc501-3a74-4be1-8e04-5f9ee395c6bf)
+![kuva](https://github.com/user-attachments/assets/7afd2264-436e-400e-9fce-cf763c24f6ad)
+![kuva](https://github.com/user-attachments/assets/aff90b64-91a7-40b6-9506-cc7af4a68f40)
+
+
+## Interactive Prototypes (Designed with Figma)
 - Mobile: https://bit.ly/3Cr84lm | Designed for big Android phones, resolution 360 x 800 px
 - Desktop: https://bit.ly/3tSEoK7 | Designed for a 16" MacBook Pro, resolution 1728 x 1117 px
 
-### Some of My Design Choices
+## Some of the Prototype Frames That I Designed
 
-#### Homepage (Unlogged User)
+### Homepage (Unlogged User)
 - The hero area features the service's value proposition and a call to action that guides users toward the desired direction.
 - The benefits of the service and its key features are highlighted to clearly convey why users should begin using the service.
 - The goal of the user research was to explore students' physical activity habits, challenges related to getting started with exercise, and motivation factors through semi-structured thematic interviews.
 
-#### Profile Creation
+![kuva](https://github.com/user-attachments/assets/c0812df7-60be-4c5e-aacf-4b473812e570)
+
+
+### Profile Creation
 - Unnecessary elements are left out.
 - Required fields are marked with an asterisk (*) and explained.
 - Fields have guiding texts when needed.
@@ -78,22 +110,52 @@ _Themes related to the use of the web service and their subthemes_
 - The video provides an overview of key features.
 - A pop-up confirms successful profile creation and gives clear feedback.
 
-#### Main Page (Logged-In User)
+![kuva](https://github.com/user-attachments/assets/15762826-6afd-4c7f-85fd-326e6b2b586b)
+
+
+### Main Page (Logged-In User)
 - Follows the Principle of Choices.
 - The main content (finding some company for physical activities) is divided into two sections in the desktop view: company for individual sports and for team sports. In the mobile view, these are stacked vertically.
 - Selection is easy thanks to limited number of choices.
 - Also other important content is featured.
 - The main page is accessible through the logo, and so are the discussions through an icon in the top header.
 
-#### Navigation
+![Etusivu (kirjautunut)](https://github.com/user-attachments/assets/1b5e2094-edc8-460e-8aaa-3e4d9e826d9b)
+
+
+### Navigation
 - In the mobile menu, the descriptive icons before the main page names already provide hints about the content of the page and help selection.
 - On larger screens, the icons are placed only at the top level of the header, in front of the settings and user profile, so that the view remains uncluttered.
 
-#### Profile
+![kuva](https://github.com/user-attachments/assets/e7ced8b3-8e06-4e97-81ad-0d8773b54a45)
+
+
+### Profile
 - The profile can be edited, deleted, or the user can log out. Icons representing the actions precede these calls to action, making it easier for the user to make a selection.
 - Since deleting the profile is a significant and irreversible action, the user is warned about this and given the opportunity to cancel or proceed with the deletion.
 - Upon profile deletion, the user receives feedback in the form of a notification confirming the profile has been deleted, and they are directed to the homepage for unlogged users.
 - **NOTE:** The elements used for creating the profile (hair, eyes, etc.) are not ideal. I used what was available for free within the project's scope. Usability is somewhat affected by this limitation.
+
+![kuva](https://github.com/user-attachments/assets/c879609a-d4cc-4dad-9590-03ef7970b5fc)
+
+
+![kuva](https://github.com/user-attachments/assets/cc62b701-8f6b-41e2-b35f-d7404e2f0076)
+
+
+### Settings
+- Descriptive icons provide hints about the content and ease locating the right information.
+
+![kuva](https://github.com/user-attachments/assets/8f9d353d-e5ef-44b2-abc5-7b657722d574)
+
+### FAQ
+- To ease finding the right information ja not providing too much content at the same time, only the topics are provided first, and the user can open the wanted section(s).
+
+![kuva](https://github.com/user-attachments/assets/6651935c-9d2f-4dd6-adda-42ac8d30e505)
+
+
+## Poster for a Virtual Fair
+
+![kuva](https://github.com/user-attachments/assets/2c9a05a6-3b2a-40b2-8afa-890d3e12dea4)
 
 ## Read More About The Project
 
