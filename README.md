@@ -6,6 +6,14 @@
 - **Course:** "HTI.110 Ihmisen ja teknologian vuorovaikutus: Suunnittelu", Tampere University
 ![Nimetön malli](https://github.com/user-attachments/assets/aa77ef74-e420-4b3d-9f1a-da56e5db8ef7)
 
+[See the mobile version of the prototype](https://www.figma.com/proto/HhBvilkXP5Tib3Vde7OEQt/Uniter?page-id=269%3A4306&node-id=269-4376&viewport=346%2C48%2C0.1&scaling=scale-down&starting-point-node-id=269%3A4376&t=Uc8FKmrlsSrJe1C9-1)
+
+- Designed for big Android phones, resolution 360 x 800 px
+  
+[See the desktop version of the prototype](https://www.figma.com/proto/HhBvilkXP5Tib3Vde7OEQt/Uniter?page-id=514%3A3137&node-id=1106-15986&viewport=346%2C48%2C0.19&scaling=scale-down&starting-point-node-id=1106%3A15986&t=zVI6HAITDF6NB1Gp-1)
+
+- Designed for a 16" MacBook Pro, resolution 1728 x 1117 px
+
 ## Main Idea & Goal
 This was a course project made as a team of three. The aim was to design an online service to get university students moving. The result was an interactive prototype for a service called Uniter. It helps students find exercise companions, track their completed workouts, and earn rewards and offers from partners that promote sports and physical activity. Users can also look for a mentor or even become one themselves if they feel confident in a particular sport. The service’s promise is simple: “Uniter gets university students moving together.”
 
@@ -87,8 +95,8 @@ From a technical perspective, the service also requires a functional internet co
 
 
 ## Interactive Prototypes (Designed with Figma)
-- Mobile: https://bit.ly/3Cr84lm | Designed for big Android phones, resolution 360 x 800 px
-- Desktop: https://bit.ly/3tSEoK7 | Designed for a 16" MacBook Pro, resolution 1728 x 1117 px
+- [See the mobile version of the prototype](https://www.figma.com/proto/HhBvilkXP5Tib3Vde7OEQt/Uniter?page-id=269%3A4306&node-id=269-4376&viewport=346%2C48%2C0.1&scaling=scale-down&starting-point-node-id=269%3A4376&t=Uc8FKmrlsSrJe1C9-1)
+- [See the desktop version of the prototype](https://www.figma.com/proto/HhBvilkXP5Tib3Vde7OEQt/Uniter?page-id=514%3A3137&node-id=1106-15986&viewport=346%2C48%2C0.19&scaling=scale-down&starting-point-node-id=1106%3A15986&t=zVI6HAITDF6NB1Gp-1)
 
 ## Some of the Prototype Frames That I Designed
 
